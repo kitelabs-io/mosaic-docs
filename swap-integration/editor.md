@@ -108,9 +108,7 @@ const transaction = await aptos.transaction.build.simple({
   data: {
     function: mosaicResponse.data.data.tx.function,
     typeArguments: mosaicResponse.data.data.tx.typeArguments,
-    functionArguments: Object.values(
-      mosaicResponse.data.data.tx.functionArguments
-    ),
+    functionArguments: mosaicResponse.data.data.tx.functionArguments,
   },
 });
 ```

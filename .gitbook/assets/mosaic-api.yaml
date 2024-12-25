@@ -170,57 +170,21 @@ paths:
                             items:
                               type: string
                           functionArguments:
-                            type: object
-                            properties:
-                              receiver:
-                                type: string
-                                example: "0x47652bd91e7cf0ca0476eaff712f360addc1edeadd86352f37586183d0278d08"
-                              amounts:
-                                type: array
-                                example:
-                                  - "20000000"
-                                items:
-                                  type: string
-                              routeData:
-                                type: array
-                                example:
-                                  - "4"
-                                  - "1"
-                                  - "3"
-                                  - "0"
-                                  - "0"
-                                  - "0"
-                                  - "18446744073709551614"
-                                  - "4"
-                                  - "3"
-                                  - "2"
-                                  - "1"
-                                  - "50"
-                                  - "1"
-                                items:
-                                  type: string
-                              faAddresses:
-                                type: array
-                                items:
-                                  type: string
-                              configAddresses:
-                                type: array
-                                items:
-                                  type: string
-                              feeReceiver:
-                                type: string
-                                example: "0x0000000000000000000000000000000000000000000000000000000000000000"
-                              feeBps:
-                                type: string
-                                example: "0"
-                              isFeeIn:
-                                type: boolean
-                                example: true
-                              minAmountOut:
-                                type: string
-                                example: "31708771"
-                              extraData:
-                                type: string
+                            type: array
+                            items: {}
+                            example:
+                              - "0x47652bd91e7cf0ca0476eaff712f360addc1edeadd86352f37586183d0278d08"
+                              - ["1000000000000"]
+                              - [ "0", "2", "1", "3", "18446744073709551614", "0", "2", "3", "4"]
+                              - ["0xa"]
+                              - ["0x234f508689de8756169d1ee02d889c777de1cebda3a7bbcce63ba8a27c563c6f"]
+                              - "0x0000000000000000000000000000000000000000000000000000000000000000"
+                              - "0"
+                              - false
+                              - "2000000000000"
+                              - "10"
+                              - "pid"
+                              - "{}"
 
   "/v1/tokens":
     get:
