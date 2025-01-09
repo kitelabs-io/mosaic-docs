@@ -11,6 +11,7 @@
 ## Swap Integration
 
 * [API](swap-integration/editor.md)
+* [Swap Widget](swap-integration/swap-widget.md)
 * [Typescript SDK](swap-integration/markdown.md)
 * [Integration Partners](swap-integration/integration-partners.md)
 
