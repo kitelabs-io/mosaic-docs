@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/Banner_1920x600.png
+cover: .gitbook/assets/Banner_Twitter (3).png
 coverY: 0
 layout:
   cover:
