@@ -9,6 +9,7 @@ Mosaic can be used within other sites as an iframe. An iframe shows an exact ver
 
 One benefit of an iframe integration is that the your site will automatically keep up with any improvements/additions to the site. After the initital integration is setup no further work is needed to pull in updates as the exchange site is updated over time.
 
+<figure><img src="../.gitbook/assets/widget/iframe.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Url format: 
 ```js
