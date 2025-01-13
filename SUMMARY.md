@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🟡 Welcome](README.md)
+* [🟡 Introduction to Mosaic](README.md)
 
 ## User Guides
 
